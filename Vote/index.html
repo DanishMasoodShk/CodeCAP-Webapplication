@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+            Online Voting System - Home 
+        </title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+    <body>
+        <center>
+        <div id="headerSection">
+            <h1> Online Voting System [ Danish Masood Shaikh  ] </h1>
+        </div>
+        <hr style="height:2px;border-width:0;color:brown;background-color:Maroon">
+        <div id="bodySection">
+        <form action="api/login.php" method = "post">
+            <h2 id="lobel">Login</h2>
+            <input type="number" name="mobile" placeholder="Enter Mobile"><br><br>
+            <input type="password" name="password" placeholder="Enter Password"><br><br>
+            <select id="dropbox" name="role">
+                <option value="1">Voter</option>
+                <option value="2">Group</option>
+
+            </select>
+            <br>
+            <br>
+
+            <button id="loginbutton" type="submit">
+               <b> Login </b>
+            </button>
+            <br>
+            <br>
+            <b id="lobel">Are You A New User?</b> <a href="routes/register.html"> <b> Click here to register yourself </b> </a>
+        </form>
+        </div>
+        </center>
+    </body>
+</html>
